@@ -1,0 +1,4 @@
+wxpy
+pymysql
+pillow
+peewee
