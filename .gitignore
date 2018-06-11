@@ -106,6 +106,10 @@ venv.bak/
 .idea/
 
 ava/
+ava_*/
 user_info.db
 
-cache
+cache/
+
+config.py
+*.pkl

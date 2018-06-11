@@ -2,3 +2,5 @@ wxpy
 pymysql
 pillow
 peewee
+psycopg2
+mysql-python

@@ -1,0 +1,7 @@
+app_config = {
+    "DB_HOST": "172.0.0.1",
+    "DB_PORT": 3306,
+    "DB_NAME": "wechat_user_info_data",
+    "DB_USER": "",
+    "DB_PWD": ""
+}
