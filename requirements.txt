@@ -4,3 +4,4 @@ pillow
 peewee
 psycopg2
 mysql-python
+numpy
