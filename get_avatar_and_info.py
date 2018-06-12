@@ -43,11 +43,11 @@ def spide():
                                 avatar_file_name=md5+".jpg", from_id=from_id, from_group=(group.name or ''),
                                 province=u.province, city=u.city, is_friend=u.is_friend, display_name=u.display_name)
                     user.save()
-                    fileLocation = "./ava/%s.jpg" % (md5)
-                    if os.path.isfile(fileLocation):
+                    file_location = "./ava/%s.jpg" % md5
+                    if os.path.isfile(file_location):
                         print("File already Exist!")
                     else:
-                        shutil.copyfile(tmpFile, fileLocation)
+                        shutil.copyfile(tmpFile, file_location)
                     print("写入成功【%s】{%s}[%d]%s" % (u.name, u.display_name, u.sex, md5))
                 else:
                     print("skip: %s / %s" % (u.name, u.display_name))
